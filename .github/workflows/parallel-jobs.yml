@@ -15,5 +15,5 @@ jobs:
   runs-on: ubuntu-latest
   steps:
     - name: Run many tests
-      run: echo "delpoy job"
+      run: echo "deploy job"
         
