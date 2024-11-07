@@ -2,18 +2,18 @@ name: CICD
 on: push
 jobs:
   build-job:
-  runs-on: ubuntu-latest
-  steps:
+   runs-on: ubuntu-latest
+   steps:
     - name: Run many tests
       run: echo "build job"
   test-job:
-  runs-on: ubuntu-latest
-  steps:
+   runs-on: ubuntu-latest
+   steps:
     - name: Run many tests
       run: echo "test job"
   deploy-job:
-  runs-on: ubuntu-latest
-  steps:
+   runs-on: ubuntu-latest
+   steps:
     - name: Run many tests
       run: echo "deploy job"
         
